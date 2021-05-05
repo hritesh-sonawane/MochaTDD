@@ -22,7 +22,7 @@ describe("Calculate", () => {
     });
 
     // edge case
-    it("returns the 1 when given 0", () => {
+    it("returns 1 when given 0", () => {
       const inputNumber = 0;
       const expectedOutput = 1;
 

@@ -14,7 +14,7 @@ Calculate
 factorial
 √ returns 120 when given 5
 √ returns the factorial of an input number
-√ returns the 1 when given 0
+√ returns 1 when given 0
 
 3 passing (8ms)
 ```
