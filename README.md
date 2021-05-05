@@ -9,7 +9,6 @@ Mocha tests run serially, allowing for flexible and accurate reporting, while ma
 Output:
 
 ```
-
 Calculate
 factorial
 √ returns 120 when given 5
