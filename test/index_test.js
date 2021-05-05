@@ -20,5 +20,15 @@ describe("Calculate", () => {
 
       assert.strictEqual(expectedOutput, actual);
     });
+
+    // edge case
+    it("returns the 1 when given 0", () => {
+      const inputNumber = 0;
+      const expectedOutput = 1;
+
+      const actual = Calculate.factorial(inputNumber);
+
+      assert.strictEqual(expectedOutput, actual);
+    });
   });
 });
